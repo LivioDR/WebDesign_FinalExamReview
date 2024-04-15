@@ -9,7 +9,7 @@ div {
     margin: 0 auto;
     margin-top: 10%;
     border: 2px solid black;
-    padding: 5%;
+    padding: 4%;
 }
 button {
     height: 3em;
@@ -24,4 +24,7 @@ button {
 }
 p {
     transition: .5s;
+    padding-inline: 3%;
+    height: 1.5em;
+    border-radius: 0.75em;
 }
