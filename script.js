@@ -40,8 +40,8 @@ button.innerText = "Show answer"
 buttonContainer.append(button, reloadBtn)
 
 container.appendChild(buttonContainer)
-button.addEventListener('mousedown',showAnswer)
-button.addEventListener('mouseup',hideAnswer)
+button.addEventListener('click',showAnswer)
+// button.addEventListener('mouseup',hideAnswer)
 reloadBtn.addEventListener('click',()=>{location.reload()})
 
 function shuffle(array) {
