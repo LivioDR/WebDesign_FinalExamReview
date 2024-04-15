@@ -29,6 +29,7 @@ button {
 p {
     transition: .5s;
     padding-inline: 3%;
-    height: 3em;
+    margin-top: 5%;
+    margin-bottom: 3%;
     border-radius: 1.5em;
 }
