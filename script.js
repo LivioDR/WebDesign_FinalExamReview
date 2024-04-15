@@ -28,7 +28,7 @@ const hideAnswer = () => {
 const buttonContainer = document.createElement('div')
 buttonContainer.style.display = 'flex'
 buttonContainer.style.justifyContent = 'space-around'
-buttonContainer.style.marginTop = '5%'
+buttonContainer.style.marginTop = '10%'
 
 const reloadBtn = document.createElement('button')
 reloadBtn.innerText = 'Next question'

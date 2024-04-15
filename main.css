@@ -13,3 +13,6 @@ button {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+p {
+    transition: .5s;
+}
