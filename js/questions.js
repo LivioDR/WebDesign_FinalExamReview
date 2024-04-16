@@ -1,93 +1,13 @@
 const questions = [ 
-    { question: "What is the purpose of the HTML <span> tag?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "To define a sub-section of an element that will be styled differently than the rest" }, 
-            { isCorrect: false, option: "To insert a video on the page" }, 
-            { isCorrect: false, option: "To create a new webpage" }, 
-            { isCorrect: false, option: "To define a list of items" } 
-        ] 
-    }, 
-    { 
-        question: "Which attribute is used with the <img> tag in HTML to define the location of the image?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "src" }, 
-            { isCorrect: false, option: "alt" }, 
-            { isCorrect: false, option: "href" }, 
-            { isCorrect: false, option: "link" } 
-        ] 
-    }, 
-    { 
-        question: "What is the purpose of HTML lists?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "To organize content in ordered or unordered lists" }, 
-            { isCorrect: false, option: "To embed videos in a webpage" }, 
-            { isCorrect: false, option: "To create interactive quizzes" }, 
-            { isCorrect: false, option: "To style text differently" } 
-        ] 
-    }, 
-    { 
-        question: "What is Lorem Ipsum commonly used for in web development?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "As filler text or placeholder content" }, 
-            { isCorrect: false, option: "To generate images" }, 
-            { isCorrect: false, option: "To create animations" }, 
-            { isCorrect: false, option: "To design logos" } 
-        ] 
-    }, 
-    { 
-        question: "Where can filler content like Lorem Ipsum be found?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "http://www.lipsum.com/" }, 
-            { isCorrect: false, option: "http://www.fillertext.com/" }, 
-            { isCorrect: false, option: "http://www.placeholdercontent.com/" }, 
-            { isCorrect: false, option: "http://www.loremcontent.com/" } 
-        ] 
-    }, 
-    { 
-        question: "What is the purpose of the HTML <form> tag?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "To represent a section of the page for accepting user input" }, 
-            { isCorrect: false, option: "To insert images" }, 
-            { isCorrect: false, option: "To create tables" }, 
-            { isCorrect: false, option: "To define a new webpage" } 
-        ] 
-    }, 
-    { 
-        question: "Which attribute is used with the <input> element in HTML to define the kind of control?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "type" }, 
-            { isCorrect: false, option: "id" }, 
-            { isCorrect: false, option: "name" }, 
-            { isCorrect: false, option: "value" } 
-        ] 
-    }, 
-    { 
-        question: "What does the type attribute of the <input> element define?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "The kind of control the input represents" }, 
-            { isCorrect: false, option: "The input's unique identifier" }, 
-            { isCorrect: false, option: "The input's name for JavaScript reference" }, 
-            { isCorrect: false, option: "The initial value of the input" } 
-        ] 
-    }, 
-    { 
-        question: "Which HTML element is used to define a caption for a table?", 
-        answers: 
-        [ 
-            { isCorrect: true, option: "<caption>" }, 
-            { isCorrect: false, option: "<header>" }, 
-            { isCorrect: false, option: "<footer>" }, 
-            { isCorrect: false, option: "<title>" } 
-        ] 
-    }, 
+    { question: "What is the purpose of the HTML <span> tag?", answers: [ { isCorrect: true, option: "To define a sub-section of an element that will be styled differently than the rest" }, { isCorrect: false, option: "To insert a video on the page" }, { isCorrect: false, option: "To create a new webpage" }, { isCorrect: false, option: "To define a list of items" } ] }, 
+    { question: "Which attribute is used with the <img> tag in HTML to define the location of the image?", answers: [ { isCorrect: true, option: "src" }, { isCorrect: false, option: "alt" }, { isCorrect: false, option: "href" }, { isCorrect: false, option: "link" } ] }, 
+    { question: "What is the purpose of HTML lists?", answers: [ { isCorrect: true, option: "To organize content in ordered or unordered lists" }, { isCorrect: false, option: "To embed videos in a webpage" }, { isCorrect: false, option: "To create interactive quizzes" }, { isCorrect: false, option: "To style text differently" } ] }, 
+    { question: "What is Lorem Ipsum commonly used for in web development?", answers: [ { isCorrect: true, option: "As filler text or placeholder content" }, { isCorrect: false, option: "To generate images" }, { isCorrect: false, option: "To create animations" }, { isCorrect: false, option: "To design logos" } ] }, 
+    { question: "Where can filler content like Lorem Ipsum be found?", answers: [ { isCorrect: true, option: "http://www.lipsum.com/" }, { isCorrect: false, option: "http://www.fillertext.com/" }, { isCorrect: false, option: "http://www.placeholdercontent.com/" }, { isCorrect: false, option: "http://www.loremcontent.com/" } ] }, 
+    { question: "What is the purpose of the HTML <form> tag?", answers: [ { isCorrect: true, option: "To represent a section of the page for accepting user input" }, { isCorrect: false, option: "To insert images" }, { isCorrect: false, option: "To create tables" }, { isCorrect: false, option: "To define a new webpage" } ] }, 
+    { question: "Which attribute is used with the <input> element in HTML to define the kind of control?", answers:[ { isCorrect: true, option: "type" }, { isCorrect: false, option: "id" }, { isCorrect: false, option: "name" }, { isCorrect: false, option: "value" } ]}, 
+    { question: "What does the type attribute of the <input> element define?", answers: [ { isCorrect: true, option: "The kind of control the input represents" }, { isCorrect: false, option: "The input's unique identifier" }, { isCorrect: false, option: "The input's name for JavaScript reference" }, { isCorrect: false, option: "The initial value of the input" } ] }, 
+    { question: "Which HTML element is used to define a caption for a table?", answers: [ { isCorrect: true, option: "<caption>" }, { isCorrect: false, option: "<header>" }, { isCorrect: false, option: "<footer>" }, { isCorrect: false, option: "<title>" } ] }, 
     { question: "What is the purpose of the HTML <colgroup> element?", answers: [ { isCorrect: true, option: "To allow grouping of columns for formatting" }, { isCorrect: false, option: "To define a new section of the page" }, { isCorrect: false, option: "To create a navigation bar" }, { isCorrect: false, option: "To style text differently" } ] },
     { question: "What is the purpose of the HTML <img> tag?", answers: [ { isCorrect: true, option: "To place an image on the page" }, { isCorrect: false, option: "To create a hyperlink" }, { isCorrect: false, option: "To define a table" }, { isCorrect: false, option: "To style text" } ] }, 
     { question: "Which attribute should be used with the <img> tag to provide an image description for screen readers?", answers: [ { isCorrect: true, option: "alt" }, { isCorrect: false, option: "src" }, { isCorrect: false, option: "title" }, { isCorrect: false, option: "href" } ] }, 
@@ -196,7 +116,19 @@ const questions = [
     { question: "What is the main goal of the Accessibility for Ontarians with Disabilities Act (AODA) in terms of web accessibility?", answers: [ { isCorrect: true, option: "To ensure websites are accessible to individuals with disabilities in Ontario" }, { isCorrect: false, option: "To regulate online advertising in Ontario" }, { isCorrect: false, option: "To standardize website design across all industries" }, { isCorrect: false, option: "To promote international web standards" } ] }, 
     { question: "How does the AODA impact the design and development of websites in Ontario?", answers: [ { isCorrect: true, option: "It requires websites to be accessible and usable for individuals with disabilities" }, { isCorrect: false, option: "It focuses on increasing website traffic in Ontario" }, { isCorrect: false, option: "It mandates specific color schemes for websites" }, { isCorrect: false, option: "It enforces strict content restrictions on websites" } ] }, 
     { question: "True or False: AODA applies to private or non-profit organizations with 50 or more employees.", answers: [ { isCorrect: true, option: "True" }, { isCorrect: false, option: "False" } ] }, { question: "What are the consequences of non-compliance with the AODA regulations?", answers: [ { isCorrect: true, option: "Fines and penalties for organizations that do not meet the accessibility requirements" }, { isCorrect: false, option: "Tax incentives for compliant organizations" }, { isCorrect: false, option: "Free training programs for employees" }, { isCorrect: false, option: "No impact on organizations" } ] }, 
-    { question: "How does AODA compliance contribute to creating a more inclusive online environment?", answers: [ { isCorrect: true, option: "By ensuring that individuals with disabilities can access and use online resources effectively" }, { isCorrect: false, option: "By limiting access to certain groups of users" }]}
+    { question: "How does AODA compliance contribute to creating a more inclusive online environment?", answers: [ { isCorrect: true, option: "By ensuring that individuals with disabilities can access and use online resources effectively" }, { isCorrect: false, option: "By limiting access to certain groups of users" }]},
+    { question: "What is the purpose of the 'aria-label' attribute in WAI-ARIA?", answers: [ { isCorrect: true, option: "To provide a text label for an element that is not visible on the screen" }, { isCorrect: false, option: "To change the font style of an element" }, { isCorrect: false, option: "To add a background color to an element" }, { isCorrect: false, option: "To create a hover effect on an element" } ] }, 
+    { question: "How does the 'aria-describedby' attribute enhance accessibility in web development?", answers: [ { isCorrect: true, option: "By associating an element with another element that provides a description or explanation" }, { isCorrect: false, option: "By changing the position of an element on the webpage" }, { isCorrect: false, option: "By animating an element when interacted with" }, { isCorrect: false, option: "By hiding an element from screen readers" } ] }, 
+    { question: "True or False: The 'aria-hidden' attribute is used to hide an element from all users, including assistive technologies.", answers: [ { isCorrect: true, option: "True" }, { isCorrect: false, option: "False" } ] },
+    { question: "In CSS animations, what does the 'animation-fill-mode' property control?", answers: [ { isCorrect: true, option: "The styles applied to an element before and after the animation plays" }, { isCorrect: false, option: "The speed at which the animation progresses" }, { isCorrect: false, option: "The direction in which the animation moves" }, { isCorrect: false, option: "The number of times the animation repeats" } ] }, 
+    { question: "What is the difference between 'transition' and 'animation' in CSS?", answers: [ { isCorrect: true, option: "Transitions are triggered by state changes, while animations run automatically" }, { isCorrect: false, option: "Transitions are more complex than animations" }, { isCorrect: false, option: "Animations are limited to 2D transformations, while transitions can handle 3D transformations" }, { isCorrect: false, option: "Animations are more efficient for simple property changes than transitions" } ] }, 
+    { question: "How can you create a 'bounce' effect using CSS animations without using keyframes?", answers: [ { isCorrect: true, option: "By utilizing cubic-bezier timing functions to simulate a bounce effect" }, { isCorrect: false, option: "By applying a 'bounce' class to the element" }, { isCorrect: false, option: "By adjusting the animation-duration property dynamically" }, { isCorrect: false, option: "By using JavaScript to trigger the bounce effect" } ] }, 
+    { question: "What is the purpose of the 'transition-timing-function' property in CSS transitions?", answers: [ { isCorrect: true, option: "To define the speed curve of the transition effect" }, { isCorrect: false, option: "To set the duration of the transition" }, { isCorrect: false, option: "To control the direction of the transition" }, { isCorrect: false, option: "To pause and resume the transition" } ] },
+    { question: "What is the difference between 'translateX' and 'translateY' in CSS transforms?", answers: [ { isCorrect: true, option: "'translateX' moves an element horizontally, while 'translateY' moves it vertically" }, { isCorrect: false, option: "'translateX' rotates an element, while 'translateY' scales it" }, { isCorrect: false, option: "'translateX' changes the opacity of an element, while 'translateY' changes its color" }, { isCorrect: false, option: "'translateX' skews an element, while 'translateY' applies a perspective effect" } ] }, 
+    { question: "How can you combine multiple CSS transforms on an element to create a complex transformation?", answers: [ { isCorrect: true, option: "By using the 'transform' property with multiple transform functions separated by spaces" }, { isCorrect: false, option: "By nesting transform functions within each other" }, { isCorrect: false, option: "By applying transforms using different CSS classes" }, { isCorrect: false, option: "By using JavaScript to handle the transformations" } ] }, 
+    { question: "What does the 'transform-origin' property control in CSS transforms?", answers: [ { isCorrect: true, option: "The point around which the element is transformed or rotated" }, { isCorrect: false, option: "The duration of the transformation effect" }, { isCorrect: false, option: "The timing function for the transformation" }, { isCorrect: false, option: "The number of times the transformation is applied" } ] },
+    { question: "What is a Cross-Site Scripting (XSS) attack?", answers: [{ isCorrect: true, option: "Injecting malicious scripts into web pages viewed by other users" },{ isCorrect: false, option: "Redirecting users to a fake website to steal their credentials" },{ isCorrect: false, option: "Intercepting and modifying data packets between the user and the server" },{ isCorrect: false, option: "Exploiting misconfigured server settings to gain unauthorized access" }]},
+    { question: "What does SQL injection exploit in a web application?", answers: [{ isCorrect: true, option: "Vulnerabilities in database query construction" },{ isCorrect: false, option: "Weaknesses in session management" },{ isCorrect: false, option: "Unsecured file upload functionality" },{ isCorrect: false, option: "Exposed server directories" }]}
 ]
 
 export default questions
