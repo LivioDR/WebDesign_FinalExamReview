@@ -11,6 +11,7 @@ do{
 while(arrayOfAsked.includes(index))
 
 arrayOfAsked.push(index)
+arrayOfAsked.sort((a,b) => {return a - b})
 localStorage.setItem('asked',JSON.stringify(arrayOfAsked))
 
 let question = questions[index].question
