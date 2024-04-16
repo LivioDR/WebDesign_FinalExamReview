@@ -7,11 +7,15 @@ shuffle(answers)
 
 const questContainer = document.getElementById('question')
 const container = document.getElementById('answers')
-let answersText = answers.map(item => {return `<p ${item.isCorrect ? 'class="correct"' : 'class="incorrect"'} >${item.option}</p>`})
-answersText = answersText.join("")
+
+for(let i=0; i<answers.length; i++){
+  let answerP = document.createElement('p')
+  answerP.innerText = answers[i].option
+  answerP.classList.add(answers[i].isCorrect ? 'correct' : 'incorrect')
+  container.appendChild(answerP)
+}
 
 questContainer.innerText = question
-container.innerHTML = answersText
 
 
 const showAnswer = () => {
@@ -19,11 +23,11 @@ const showAnswer = () => {
     correctAnswer.style.backgroundColor = "green"
     correctAnswer.style.color = 'white'
 }
-const hideAnswer = () => {
-    const correctAnswer = document.querySelector('.correct')
-    correctAnswer.style.backgroundColor = "white"
-    correctAnswer.style.color = 'black'
-}
+// const hideAnswer = () => {
+//     const correctAnswer = document.querySelector('.correct')
+//     correctAnswer.style.backgroundColor = "white"
+//     correctAnswer.style.color = 'black'
+// }
 
 const buttonContainer = document.createElement('div')
 buttonContainer.style.display = 'flex'
