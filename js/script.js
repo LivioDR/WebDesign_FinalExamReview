@@ -1,6 +1,18 @@
 import questions from "./questions.js";
 
-let index = Math.floor(Math.random() * questions.length)
+let arrayOfAsked = (JSON.parse(localStorage.getItem("asked"))||[])
+if(arrayOfAsked.length > questions.length*0.8){
+  arrayOfAsked = []
+}
+let index;
+do{
+  index = Math.floor(Math.random() * questions.length)
+}
+while(arrayOfAsked.includes(index))
+
+arrayOfAsked.push(index)
+localStorage.setItem('asked',JSON.stringify(arrayOfAsked))
+
 let question = questions[index].question
 let answers = questions[index].answers
 shuffle(answers)
